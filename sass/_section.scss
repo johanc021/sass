@@ -1,0 +1,17 @@
+section {
+  background-color: $colorBG;
+  border: $boderContainer;
+  $bgPrincipal: black;
+  h2 {
+      color: $colorMain;
+  }
+  p {
+      color: $bgPrincipal;
+  }
+}
+
+@media (max-width: $widthMobile) {
+  section {
+      background-color: $colorSecundario;
+  }
+}

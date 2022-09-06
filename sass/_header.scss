@@ -1,0 +1,29 @@
+.header  {
+  background: {
+      size: cover;
+      position: top left;
+      repeat: no-repeat;
+      color: aqua;
+  }
+
+  & &__logo {
+      width: 100px;
+  }
+
+  &__menu {
+      display: flex;
+      ul {
+          list-style: none;
+          li {
+              display: inline;
+              a {
+                  color: red;
+                  &:hover {
+                      color: blue;
+                  }
+              }
+          }
+      }
+
+  }
+}
